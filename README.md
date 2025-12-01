@@ -4,7 +4,7 @@
 ![Neutron Dose Animation](neutron_dose_map.gif)
  
 Real 15 MV medical linac vault Monte Carlo simulation using MCNP6.3  
-NCRP Report 151 compliant | Real Iranian hospital geometry
+NCRP Report 151 compliant | Real hospital geometry
 
 ## Key Results
 | Parameter                     | Value                    | Limit (NCRP 151) |
