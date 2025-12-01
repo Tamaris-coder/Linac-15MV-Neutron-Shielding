@@ -19,7 +19,7 @@ def parse_mcnp_output(filename="bunker_maino"):
             values = [float(x) for x in line.split()[1::2]]
             dose_values.extend(values)
     
-    # reshape به ابعاد fmesh (z, y, x)
+    # reshape  fmesh (z, y, x)
     dose = np.array(dose_values).reshape(45, 140, 180)
     return dose
 
